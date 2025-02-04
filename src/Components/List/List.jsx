@@ -18,9 +18,9 @@ function List({type = null, category = null, items = []}) {
         const lowCalItems = items.filter(item => item.calories < 100);
         const highCalItems = items.filter(item => item.calories >= 100);
 
-        const listItems = items.map(item => <ListItemFood {...item} />  )
-        const listLowItems = lowCalItems.map(item => <ListItemFood {...item} />)
-        const listHighItems = highCalItems.map(item => <ListItemFood {...item} />)
+        const listItems = items.map(item => <ListItemFood key={item.id} {...item} />  )
+        const listLowItems = lowCalItems.map(item => <ListItemFood key={item.id} {...item} />)
+        const listHighItems = highCalItems.map(item => <ListItemFood key={item.id} {...item} />)
         result = (
             <div className={styles.wrapper}>
                 <h2 className={styles.list_title}>{category}</h2>

@@ -19,11 +19,11 @@ function App() {
   ];
 
   const vegetables = [
-    {id: 6, name: "potatoes", calories: 110},
-    {id: 7, name: "celery", calories: 15},
-    {id: 8, name: "carrots", calories: 25},
-    {id: 9, name: "corn", calories: 63},
-    {id: 10, name: "broccoli", calories: 50}
+    {id: 1, name: "potatoes", calories: 110},
+    {id: 2, name: "celery", calories: 15},
+    {id: 3, name: "carrots", calories: 25},
+    {id: 4, name: "corn", calories: 63},
+    {id: 5, name: "broccoli", calories: 50}
 ];
   
   return(
