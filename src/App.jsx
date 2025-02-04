@@ -5,6 +5,7 @@ import Button from './Components/Button/Button.jsx';
 import Student from './Components/Student/Student.jsx';
 import UserGreeting from './Components/UserGreeting/UserGreeting.jsx';
 import List from './Components/List/List.jsx';
+import ProfilePicture from './Components/ProfilePicture/ProfilePicture.jsx';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   return(
     <>
       <Header />
+      <ProfilePicture />
       <UserGreeting isLoggedIn={true} username="GOAT" />
       <List type="food" category="Fruits" items={fruits} />
       <List type="food" category="Vegetables" items={vegetables} />

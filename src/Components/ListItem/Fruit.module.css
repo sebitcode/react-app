@@ -1,6 +1,13 @@
 .list_item_fruit{
-    margin: 0;
     color: hsl(0, 0%, 10%);
     font-size: 18px;
     font-weight: 700;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+
+    &:hover{
+    color: hsl(0, 0%, 30%);
+    cursor: pointer;
+    }
 }

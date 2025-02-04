@@ -3,9 +3,9 @@ import styles from "./List.module.css"
 import ListItemFood from "../ListItem/Food";
 
 function List({type = null, category = null, items = []}) {
-    let result = (<></>);
+    let result = null;
 
-    if (items.length == 0) {
+    if (items.length == 0 || category === null || type === null) {
         return result
     }
 
@@ -18,7 +18,7 @@ function List({type = null, category = null, items = []}) {
         const lowCalItems = items.filter(item => item.calories < 100);
         const highCalItems = items.filter(item => item.calories >= 100);
 
-        const listItems = items.map(item => <ListItemFood {...item} />)
+        const listItems = items.map(item => <ListItemFood {...item} />  )
         const listLowItems = lowCalItems.map(item => <ListItemFood {...item} />)
         const listHighItems = highCalItems.map(item => <ListItemFood {...item} />)
         result = (
@@ -37,7 +37,11 @@ function List({type = null, category = null, items = []}) {
 List.propTypes = {
     type: PropTypes.string,
     category: PropTypes.string,
-    items: PropTypes.array,
+    items: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.number,
+        name: PropTypes.string,
+        calories: PropTypes.number
+    })),
 }
 
 export default List
