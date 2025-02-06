@@ -1,7 +1,9 @@
 import styles from "./Button.module.css"
+import React, {useState} from "react";
 
 function Button() {
     let count = 0;
+    const [message, setMessage] = useState("Sebas click me");
     const handleClick = (e, name) => {
         if (count < 3) {
             count++;
@@ -11,10 +13,10 @@ function Button() {
         }
     }
 
-    const hadleDoubleClick = () => console.log("OUCH! :C")
+    const hadleDoubleClick = () => setMessage("OUCH! :C")
 
     return(
-        <button className={styles.button} onClick={(e) => handleClick(e, "Sebas")} onDoubleClick={hadleDoubleClick}>Click me</button>
+        <button className={styles.button} onClick={(e) => handleClick(e, "Sebas")} onDoubleClick={hadleDoubleClick}>{message}</button>
     );
 }
 

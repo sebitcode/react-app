@@ -6,6 +6,7 @@ import Student from './Components/Student/Student.jsx';
 import UserGreeting from './Components/UserGreeting/UserGreeting.jsx';
 import List from './Components/List/List.jsx';
 import ProfilePicture from './Components/ProfilePicture/ProfilePicture.jsx';
+import Counter from './Components/Counter/Counter.jsx';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Student name="Rey" age={50} isStudent={false}/>
       <Student />
       <Button />
+      <Counter />
       <Footer />
     </>
   );
