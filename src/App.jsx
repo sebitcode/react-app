@@ -7,6 +7,7 @@ import UserGreeting from './Components/UserGreeting/UserGreeting.jsx';
 import List from './Components/List/List.jsx';
 import ProfilePicture from './Components/ProfilePicture/ProfilePicture.jsx';
 import Counter from './Components/Counter/Counter.jsx';
+import Form from './Components/Form/Form.jsx';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Student />
       <Button />
       <Counter />
+      <Form />
       <Footer />
     </>
   );
