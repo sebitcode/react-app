@@ -1,5 +1,5 @@
 import styles from "./Button.module.css"
-import React, {useState} from "react";
+import {useState} from "react";
 
 function Button() {
     let count = 0;
