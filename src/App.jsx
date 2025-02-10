@@ -9,6 +9,7 @@ import ProfilePicture from './Components/ProfilePicture/ProfilePicture.jsx';
 import Counter from './Components/Counter/Counter.jsx';
 import Form from './Components/Form/Form.jsx';
 import ColorPicker from './Components/ColorPicker/ColorPicker.jsx';
+import Car from './Components/Car/Car.jsx';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <Counter />
       <Form />
       <ColorPicker />
+      <Car />
       <Footer />
     </>
   );
