@@ -10,6 +10,7 @@ import Counter from './Components/Counter/Counter.jsx';
 import Form from './Components/Form/Form.jsx';
 import ColorPicker from './Components/ColorPicker/ColorPicker.jsx';
 import Car from './Components/Car/Car.jsx';
+import Food from './Components/Food/Food.jsx';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <Form />
       <ColorPicker />
       <Car />
+      <Food />
       <Footer />
     </>
   );
