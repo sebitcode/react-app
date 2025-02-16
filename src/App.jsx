@@ -11,6 +11,8 @@ import Form from './Components/Form/Form.jsx';
 import ColorPicker from './Components/ColorPicker/ColorPicker.jsx';
 import Car from './Components/Car/Car.jsx';
 import Food from './Components/Food/Food.jsx';
+import Display from './Components/Display/Display.jsx';
+import Clock from './Components/Clock/Clock.jsx';
 
 
 function App() {
@@ -50,6 +52,8 @@ function App() {
       <ColorPicker />
       <Car />
       <Food />
+      <Display />
+      <Clock />
       <Footer />
     </>
   );

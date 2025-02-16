@@ -1,5 +1,5 @@
 import styles from "./Card.module.css"
-import profilePic from "../../assets/garfielopt200x.jpg"
+import profilePic from "../../assets/garfielopt.jpg"
 
 function Card() {
     return(

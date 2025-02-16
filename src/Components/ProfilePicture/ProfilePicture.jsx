@@ -1,5 +1,5 @@
 function ProfilePicture() {
-    const imageURL = "./src/assets/garfielopt200x.jpg";
+    const imageURL = "./src/assets/garfielopt.jpg";
     const handleClick = (e) => e.target.style.display = "none"
     
     return(
