@@ -13,6 +13,8 @@ import Car from './Components/Car/Car.jsx';
 import Food from './Components/Food/Food.jsx';
 import Display from './Components/Display/Display.jsx';
 import Clock from './Components/Clock/Clock.jsx';
+import BoxA from './Components/Box/BoxA.jsx';
+import Focus from './Components/Focus/Focus.jsx';
 
 
 function App() {
@@ -55,6 +57,8 @@ function App() {
       <Display />
       <Clock />
       <Footer />
+      <BoxA />
+      <Focus />
     </>
   );
 }
