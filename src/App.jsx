@@ -57,10 +57,10 @@ function App() {
       <Food />
       <Display />
       <Clock />
-      <Footer />
       <BoxA />
       <Focus />
       <StopWatch />
+      <Footer />
     </>
   );
 }
