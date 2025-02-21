@@ -15,6 +15,7 @@ import Display from './Components/Display/Display.jsx';
 import Clock from './Components/Clock/Clock.jsx';
 import BoxA from './Components/Box/BoxA.jsx';
 import Focus from './Components/Focus/Focus.jsx';
+import StopWatch from './Components/StopWatch/StopWatch.jsx';
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
       <Footer />
       <BoxA />
       <Focus />
+      <StopWatch />
     </>
   );
 }
